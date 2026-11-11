@@ -1,2 +1,3 @@
-# Tecnologias-e-Diretrizes-para-tratamento-e-preven-o-da-Covid-19
+# Desenvolvimento de um Sistema de Análise de Dados e Dashboard 
+#Interativo utilizando Python, Programação Orientada a Objetos e Pandas.
 Projeto Final de POO
