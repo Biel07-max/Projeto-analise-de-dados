@@ -38,4 +38,9 @@ df["Demandante"] = (
     .str.strip()
 )
 
-print(df.shape)
+df = df[["Tecnologias e Diretrizes para COVID - 19", "Demandante", "Data", "Análise inicial da Conitec", "Consulta Pública", "Análise Final da Conitec", "Decisão do Ministério da Saúde"]]
+
+saida = Path(__file__).with_name("dados_tratados.xlsx")
+
+with pd.ExcelWriter(saida, engine="openpyxl", date_format="DD/MM/YYYY") as writer:
+    df.to_excel(writer, sheet_name="Dados", index=False)
