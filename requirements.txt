@@ -1,4 +1,10 @@
 pandas
-plotly 
-streamlit
+numpy
+plotly
+ipywidgets
+ipython
 openpyxl
+jinja2
+pytest
+pytest-cov
+streamlit
